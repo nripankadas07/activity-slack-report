@@ -1,0 +1,80 @@
+{
+  "state": "VALIDATED",
+  "occurrence": "GH-20261020",
+  "observed": "2026-10-20T06:29:15.528198+00:00",
+  "python": "3.12.14 (main, Aug 25 2026, 14:00:49) [Clang 22.1.3 ]",
+  "platform": "Linux-6.18.55-x86_64-with-glibc2.39",
+  "commands": [
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "-v"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": "test_cycle (test_contract.Contract.test_cycle) ... ok\ntest_disconnected_zero_milestone (test_contract.Contract.test_disconnected_zero_milestone) ... ok\ntest_exhaustive_small_dag_path_oracle (test_contract.Contract.test_exhaustive_small_dag_path_oracle) ... ok\ntest_input_unchanged (test_contract.Contract.test_input_unchanged) ... ok\ntest_negative_slack_deadline (test_contract.Contract.test_negative_slack_deadline) ... ok\ntest_strict_cli_failures (test_contract.Contract.test_strict_cli_failures) ... ok\ntest_timing_and_lag (test_contract.Contract.test_timing_and_lag) ... ok\ntest_unknown_duplicate_and_boolean (test_contract.Contract.test_unknown_duplicate_and_boolean) ... ok\n\n----------------------------------------------------------------------\nRan 8 tests in 0.170s\n\nOK\n"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "compileall",
+        "-q",
+        "activity_slack_report.py"
+      ],
+      "exit": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "pip",
+        "wheel",
+        "--no-deps",
+        "--no-build-isolation",
+        ".",
+        "-w",
+        "dist"
+      ],
+      "exit": 0,
+      "stdout": "Processing ./.\n  Preparing metadata (pyproject.toml): started\n  Preparing metadata (pyproject.toml): finished with status 'done'\nBuilding wheels for collected packages: activity-slack-report\n  Building wheel for activity-slack-report (pyproject.toml): started\n  Building wheel for activity-slack-report (pyproject.toml): finished with status 'done'\n  Created wheel for activity-slack-report: filename=activity_slack_report-0.1.0-py3-none-any.whl size=6661 sha256=77b0d40fc20fd097348f936ccf98dee2d290015008d2a120fe8ed60e74e4f1a9\n  Stored in directory: /tmp/pip-ephem-wheel-cache-nm4u1j2i/wheels/9a/4e/2f/12982346a2e83dbab684e0eacce1738e706ffc65c693685ffc\nSuccessfully built activity-slack-report\n",
+      "stderr": ""
+    },
+    {
+      "argv": [
+        "/tmp/fresh-console-wf_0u19k/venv/bin/python",
+        "-m",
+        "pip",
+        "install",
+        "--no-deps",
+        "/workspace/scratch/5d784ffbbfd3/prepared-oct20/activity-slack-report/dist/activity_slack_report-0.1.0-py3-none-any.whl"
+      ],
+      "exit": 0,
+      "stdout": "Processing /workspace/scratch/5d784ffbbfd3/prepared-oct20/activity-slack-report/dist/activity_slack_report-0.1.0-py3-none-any.whl\nInstalling collected packages: activity-slack-report\nSuccessfully installed activity-slack-report-0.1.0\n",
+      "stderr": "\n[notice] A new release of pip is available: 25.0.1 -> 26.2.1\n[notice] To update, run: python -m pip install --upgrade pip\n"
+    },
+    {
+      "argv": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "/workspace/scratch/5d784ffbbfd3/prepared-oct20/activity-slack-report/verify_installed.py",
+        "/tmp/fresh-console-wf_0u19k/venv/bin/python"
+      ],
+      "exit": 0,
+      "stdout": "{\"installed_console\": true, \"outside_checkout\": true, \"expected_results\": true, \"meaningful_failure_case\": true, \"source_unchanged\": true, \"input_sha256\": \"99a42d818b9fe51c925e7b8015ef98ab3d892f80ce834d347168a25abcfff674\"}\n",
+      "stderr": ""
+    }
+  ],
+  "installed": {
+    "installed_console": true,
+    "outside_checkout": true,
+    "expected_results": true,
+    "meaningful_failure_case": true,
+    "source_unchanged": true,
+    "input_sha256": "99a42d818b9fe51c925e7b8015ef98ab3d892f80ce834d347168a25abcfff674"
+  },
+  "limits": "Local wheel build uses installed build tools without isolation due environment network; remote CI uses normal isolated pip wheel build, a fresh venv and actual installed console. Linux only. No competitor performance benchmark."
+}

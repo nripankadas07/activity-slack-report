@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+[project]
+name = "activity-slack-report"
+version = "0.1.0"
+description = "Compute earliest/latest task times, total/free slack, binding predecessor evidence and one longest-chain witness with explicit finish-to-start lags."
+requires-python = ">=3.10"
+license = {file = "LICENSE"}
+readme = "README.md"
+dependencies = []
+[project.scripts]
+activity-slack-report = "activity_slack_report:main"
+[tool.setuptools]
+py-modules = ["activity_slack_report"]

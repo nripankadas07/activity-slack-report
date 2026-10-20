@@ -1,0 +1,35 @@
+{
+  "occurrence": "GH-20261020",
+  "state": "VALIDATED",
+  "demand": "Inferred from the workflow and domain evidence; no verified request for this new tool.",
+  "acceptance": [
+    "Invented example finishes at10; design has4 slack and buy\u2192build\u2192review is the longest chain.",
+    "Independent enumeration of all paths in64 four-task DAGs; lag, negative slack, disconnected milestones, cycles and invalid links.",
+    "Clean wheel install and installed CLI outside checkout; meaningful invalid input rejection without partial JSON."
+  ],
+  "discovery": "Public searchable README/topics and reproducible tiny examples; no outreach, adoption or growth claim.",
+  "inventory_compared": 203,
+  "mutual_distinction": "Nullable query predicates, dependency timing, token synchronization, road turn feasibility and finite-language inclusion have separate users and contracts. Shared packaging is infrastructure.",
+  "originality": "Original code and invented fixtures, AI-assisted. No third-party implementation or prose copied; standard algorithms reimplemented.",
+  "repo": "activity-slack-report",
+  "user": "Release coordinators reviewing a small dependency schedule before setting a deadline.",
+  "pain": "A list of durations hides which predecessor sets the finish and which tasks can move without delaying the project.",
+  "capability": "Compute earliest/latest task times, total/free slack, binding predecessor evidence and one longest-chain witness with explicit finish-to-start lags.",
+  "alternatives": [
+    "networkx/networkx",
+    "taskjuggler/TaskJuggler",
+    "chrisspen/criticalpath"
+  ],
+  "query": "critical path",
+  "highest": "networkx/networkx",
+  "topics": [
+    "scheduling",
+    "critical-path",
+    "project-management",
+    "python"
+  ],
+  "expected": "Invented example finishes at10; design has4 slack and buy\u2192build\u2192review is the longest chain.",
+  "limits": "Acyclic activity-on-node finish-to-start model; integer durations/lags from0..10^9, unlimited parallel resources, project starts at0. Optional deadline0..10^15 sets backward pass; a too-early deadline yields negative slack, not an invalid graph. No calendars, resource leveling, start-to-start links, negative lags or estimates of real completion. Up to200 tasks and2000 distinct links. A cycle rejects without a partial schedule. The longest chain relates to minimum finish, while deadline slack may differ.",
+  "distinct": "capacity-cut-report allocates pool capacity by max flow, task-queue runs asynchronous work, and systemd-order-audit checks ordering. This computes time and deadline slack, with no execution or resource assignment.",
+  "checks": "Independent enumeration of all paths in64 four-task DAGs; lag, negative slack, disconnected milestones, cycles and invalid links."
+}
