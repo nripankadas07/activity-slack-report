@@ -1,0 +1,38 @@
+{
+  "tasks": [
+    {
+      "id": "design",
+      "duration": 2
+    },
+    {
+      "id": "buy",
+      "duration": 5
+    },
+    {
+      "id": "build",
+      "duration": 3
+    },
+    {
+      "id": "review",
+      "duration": 1
+    }
+  ],
+  "links": [
+    {
+      "from": "design",
+      "to": "build",
+      "lag": 0
+    },
+    {
+      "from": "buy",
+      "to": "build",
+      "lag": 1
+    },
+    {
+      "from": "build",
+      "to": "review",
+      "lag": 0
+    }
+  ],
+  "deadline": 10
+}

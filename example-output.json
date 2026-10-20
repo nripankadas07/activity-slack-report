@@ -1,0 +1,61 @@
+{
+  "deadline": 10,
+  "deadline_feasible": true,
+  "exit_code": 0,
+  "longest_chain": [
+    "buy",
+    "build",
+    "review"
+  ],
+  "minimum_finish": 10,
+  "tasks": [
+    {
+      "binding_predecessors": [
+        "buy"
+      ],
+      "duration": 3,
+      "earliest_finish": 9,
+      "earliest_start": 6,
+      "free_slack": 0,
+      "id": "build",
+      "latest_finish": 9,
+      "latest_start": 6,
+      "total_slack": 0
+    },
+    {
+      "binding_predecessors": [],
+      "duration": 5,
+      "earliest_finish": 5,
+      "earliest_start": 0,
+      "free_slack": 0,
+      "id": "buy",
+      "latest_finish": 5,
+      "latest_start": 0,
+      "total_slack": 0
+    },
+    {
+      "binding_predecessors": [],
+      "duration": 2,
+      "earliest_finish": 2,
+      "earliest_start": 0,
+      "free_slack": 4,
+      "id": "design",
+      "latest_finish": 6,
+      "latest_start": 4,
+      "total_slack": 4
+    },
+    {
+      "binding_predecessors": [
+        "build"
+      ],
+      "duration": 1,
+      "earliest_finish": 10,
+      "earliest_start": 9,
+      "free_slack": 0,
+      "id": "review",
+      "latest_finish": 10,
+      "latest_start": 9,
+      "total_slack": 0
+    }
+  ]
+}

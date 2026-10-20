@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-20",
+  "comparables": [
+    {
+      "full_name": "networkx/networkx",
+      "html_url": "https://github.com/networkx/networkx",
+      "stargazers_count": 17341,
+      "pushed_at": "2026-10-16T22:01:28Z",
+      "default_branch": "main",
+      "license": {
+        "key": "other",
+        "name": "Other",
+        "spdx_id": "NOASSERTION",
+        "url": null,
+        "node_id": "MDc6TGljZW5zZTA="
+      },
+      "description": "Network Analysis in Python",
+      "observed": "2026-10-20T06:13:34.370Z",
+      "recent_open_items": [
+        {
+          "number": 8967,
+          "title": "Fix false-positive failure in spanning arborescence algorithms (#8964)",
+          "url": "https://github.com/networkx/networkx/pull/8967",
+          "is_pr": true
+        },
+        {
+          "number": 8966,
+          "title": "Fix weight shifts in spanning arborescence functions",
+          "url": "https://github.com/networkx/networkx/pull/8966",
+          "is_pr": true
+        },
+        {
+          "number": 8965,
+          "title": "Speed up Graph/MultiGraph copy() by not iterating undirected edges twice",
+          "url": "https://github.com/networkx/networkx/pull/8965",
+          "is_pr": true
+        }
+      ]
+    },
+    {
+      "full_name": "taskjuggler/TaskJuggler",
+      "html_url": "https://github.com/taskjuggler/TaskJuggler",
+      "stargazers_count": 817,
+      "pushed_at": "2025-07-28T18:41:08Z",
+      "default_branch": "master",
+      "license": {
+        "key": "gpl-2.0",
+        "name": "GNU General Public License v2.0",
+        "spdx_id": "GPL-2.0",
+        "url": "https://api.github.com/licenses/gpl-2.0",
+        "node_id": "MDc6TGljZW5zZTg="
+      },
+      "description": "TaskJuggler - Project Management beyond Gantt chart drawing",
+      "observed": "2026-10-20T06:13:34.205Z",
+      "recent_open_items": [
+        {
+          "number": 322,
+          "title": "Fix `tj3d --webserver`",
+          "url": "https://github.com/taskjuggler/TaskJuggler/pull/322",
+          "is_pr": true
+        },
+        {
+          "number": 321,
+          "title": "Bug Fix: Check to avoid partial bookings of multiple persistent mandatory resources with alternatives",
+          "url": "https://github.com/taskjuggler/TaskJuggler/pull/321",
+          "is_pr": true
+        },
+        {
+          "number": 320,
+          "title": "is direct HTML format supported instead of Rich-Text Attribute Syntax ?",
+          "url": "https://github.com/taskjuggler/TaskJuggler/issues/320",
+          "is_pr": false
+        }
+      ]
+    },
+    {
+      "full_name": "chrisspen/criticalpath",
+      "html_url": "https://github.com/chrisspen/criticalpath",
+      "stargazers_count": 27,
+      "pushed_at": "2018-07-01T10:57:55Z",
+      "default_branch": "master",
+      "license": null,
+      "description": "Calculates the critical path of a task network.",
+      "observed": "2026-10-20T06:13:34.113Z",
+      "recent_open_items": [
+        {
+          "number": 5,
+          "title": "update_bacward is not working",
+          "url": "https://github.com/chrisspen/criticalpath/issues/5",
+          "is_pr": false
+        },
+        {
+          "number": 4,
+          "title": "how to change Node's duration?",
+          "url": "https://github.com/chrisspen/criticalpath/issues/4",
+          "is_pr": false
+        }
+      ]
+    }
+  ],
+  "query": {
+    "query": "critical path",
+    "url": "https://github.com/search?q=critical+path&type=repositories&s=stars&o=desc",
+    "observed": "2026-10-20T06:14:54.570Z"
+  },
+  "highest_star_relevant_found": "networkx/networkx",
+  "limits": "Most-stars site search is scoped and keyword dependent, not an exhaustive global ranking. Also read manually found established comparables. Some leading keyword results are adjacent or irrelevant. Competitors not installed/timed/stress tested. No absence, reliability, superiority or performance claim. Issues/PRs are small current samples, not evidence of an unresolved competitor-wide defect.",
+  "read_sources": "Current repository READMEs, metadata and sampled issues; relevant implementations/fixtures for SQLGlot simplify, NetworkX DAG, criticalpath, PM4Py/SNAKES Petri semantics, OSRM restrictions and automata/brics inclusion. No source copied."
+}
